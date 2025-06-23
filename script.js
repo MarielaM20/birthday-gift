@@ -3,7 +3,7 @@ function checkAnswer() {
   const result = document.getElementById("result");
   const gift = document.getElementById("gift");
 
-  if (answer === "8") {
+  if (answer === "6") {
     result.textContent = "Браво! Верен отговор!";
     gift.classList.remove("hidden");
     launchFireworks();
